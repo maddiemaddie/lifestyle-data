@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="use-case.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+function producer() {
+  var x = document.getElementById("producer");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function singer() {
+  var x = document.getElementById("singer");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function dancer() {
+  var x = document.getElementById("dancer");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+  </head>
+  <body>
+  <div class='page'>
+    <div class='section menu'><h1><a href="index.html">Lifestyle Data</a></h1></div>
+    <div class='section header'>
+        <p>Let's explore a customer's interest in <strong>music</strong></strong></p>
+      <p></p>
+    </div>
+    <div class='section content' style="height: auto;">
+        
+            <img src='images/singing-woman.jpg'style="max-width: 500px;"/>
+  </div>
+  <div class='section content' style="height: auto;"> <p>Music can be explored in many different ways. Based on the information the customer provides, we can suggest products that will help improve their musical experience.<br><br>Try mixing the selections below to see what combinations can be made.</p>
+    </div>
+  <div class='section buttons'>
+    <button onclick="producer()">Producer</button>
+    <button onclick="singer()">Singer</button>
+    <button onclick="dancer()">Dancer</button>
+   </div>
+   <div class="section products">
+          <div id="producer" style="display: none;">
+        <a href="https://www.walmart.com/ip/FL-Studio-20-Producer-Edition-Pro-DAW-for-Recording-Mixing-Post/940822743"><img src="images/producing.jpg"></a>
+        </div>
+        <div id="singer" style="display: none;">
+        <a href="https://www.walmart.com/ip/PHILIPS-Vocal-Dynamic-Microphone-Wired-Mic-for-vocal-and-singing/925396554"><img src="images/singing.jpg"></a>
+        </div>
+        <div id="dancer" style="display: none;">
+            <a href="https://www.walmart.com/ip/Bloch-Dance-Women-s-Dansoft-Full-Sole-Leather-Ballet-Slipper-Shoe/112805002"><img src="images/dancing.jpg"></a>
+            </div>
+</div>
+    <div class='section paragraph'>By mixing and matching according to the customer's interests, a selection of products completely tailored to their tastes can be created.</div>
+    <div class="section next">
+        <a href='index.html'><- Home &nbsp; &nbsp;</a>
+        <a href='use-case-2.html'> &nbsp; &nbsp; Use Case #2 -></a>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu {
+      color: #004c91;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #ffffff; /* Red */
+    }
+    img {
+        min-width: 200px;
+        width: auto;
+        max-width: 350px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #505050; /* Yellow */
+    }
+    img {
+    min-width: 200px;
+        width: auto;
+        max-width: 350px;
+  }
+}
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #ffffff; /* Blue */
+    }
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    background-color: #ffffff;
+    height: auto;
+    padding: 5px;
+    padding-top: 15px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    max-width: 60%;
+    margin-left: 20%;
+    padding: 15px;
+  }
+  
+  .content {
+   background-color: #ffffff;
+  }
+  
+  .sign-up {
+    background-color: #ffffff;
+  }
+  
+  .feature-1 {
+    background-color: #F5CF8E;
+    background-image: url(images/singing-woman.jpg);
+    background-size: cover;
+  }
+  
+  .feature-2 {
+    background-color: #F09A9D;
+    background-image: url(images/man-with-dog.jpg);
+    background-size: cover;
+  }
+  
+  .feature-3 {
+    background-color: #ffffff;
+    background-image: url(images/woman-reading.jpg);
+    background-size: cover;
+  }
+
+  /* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }
+  }
+
+  /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+    /*  width: 960px; */
+      margin: 0 auto;
+    }
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 33.3%;
+    }
+    .header {
+      height: auto;
+      min-height: 50px;
+      padding: 20px;
+    }
+  }
+
+  .content {
+    order: 2;
+    height: auto;
+    min-height: 100px;
+  }
+  
+ 
+
+.link {
+    position: inherit;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #78b9e7;
+}
+
+.footer {
+    height: auto;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.more {
+    background-color: #424242;
+    order: 5;
+}

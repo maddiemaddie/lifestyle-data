@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="use-case.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        function producer() {
+          var x = document.getElementById("producer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+        function singer() {
+          var x = document.getElementById("singer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+        function dancer() {
+          var x = document.getElementById("dancer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+          </head>
+          <body>
+          <div class='page'>
+            <div class='section menu'><h1><a href="index.html">Lifestyle Data</a></h1></div>
+            <div class='section header'>
+                <p>Let's take a look at a customer who has a passion for <strong>reading</strong></p>
+              <p></p>
+            </div>
+            <div class='section content' style="height: auto;">
+                
+                    <img src='images/woman-reading.jpg'style="max-width: 500px;"/>
+          </div>
+          <div class='section content' style="height: auto;"><p>Reading can be a relaxing activity, but it can be hard to stay updated on the latest trends. A customer might want to focus on certain genres or reading accessories. <br><br>Try mixing the selections below to see what combinations can be made.</p>
+            </div>
+          <div class='section buttons'>
+            <button onclick="producer()">E-Readers</button>
+            <button onclick="singer()">Bookmarks</button>
+            <button onclick="dancer()">New Releases</button>
+           </div>
+           <div class="section products">
+                  <div id="producer" style="display: none;">
+                <a href="https://www.walmart.com/ip/Kobo-Nia-6-EPD-w-Carta-display-1024x758-ComfortLight-1024x758-ComfortLight/824752304"><img src="images/ereader.jpg"></a>
+                </div>
+                <div id="singer" style="display: none;">
+                <a href="https://www.walmart.com/ip/Avery-Snap-In-Bookmark-Plastic-Divider-Color-5-Tab-24930/182647238"><img src="images/bookmark.jpg"></a>
+                </div>
+                <div id="dancer" style="display: none;">
+                    <a href="https://www.walmart.com/ip/People-We-Meet-on-Vacation-Paperback-9781984806758/778488580"><img src="images/new-release.jpg" style="width: 90%; height: 90%;"></a>
+                    </div>
+        </div>
+            <div class='section paragraph'>Knowing whether or not a customer prefers digital or physical books can make a huge difference when it comes to suggesting products. As the customer's shopping history increases, it will become more obvious which types of books they like and dislike.</div> 
+            <div class="section next">
+                <a href='use-case-2.html'><- Use Case #2 &nbsp; &nbsp;</a>
+                <a href='about.html'> &nbsp; &nbsp; Learn More -></a>
+            </div>
+</body>
+</html>

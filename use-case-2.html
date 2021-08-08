@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="use-case.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        function producer() {
+          var x = document.getElementById("producer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+        function singer() {
+          var x = document.getElementById("singer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+        function dancer() {
+          var x = document.getElementById("dancer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+          </head>
+          <body>
+          <div class='page'>
+            <div class='section menu'><h1><a href="index.html">Lifestyle Data</a></h1></div>
+            <div class='section header'>
+                <p>Let's take a look at a customer who is a <strong>dog lover</strong></strong></p>
+              <p></p>
+            </div>
+            <div class='section content' style="height: auto;">
+                
+                    <img src='images/man-with-dog.jpg'style="max-width: 500px;"/>
+          </div>
+          <div class='section content' style="height: auto;"><p>Taking care of a dog can be a real challenge. This can be made easier if frequent purchases can be done automatically.<br><br>Try mixing the selections below to see what combinations can be made.</p>
+            </div>
+          <div class='section buttons'>
+            <button onclick="producer()">Dog Food</button>
+            <button onclick="singer()">Dog Treats</button>
+            <button onclick="dancer()">Dog Toys</button>
+           </div>
+           <div class="section products">
+                  <div id="producer" style="display: none;">
+                <a href="https://www.walmart.com/ip/IAMS-Adult-Minichunks-Small-Kibble-High-Protein-Dry-Dog-Food-with-Real-Chicken-40-lb-Bag/33982751?wpa_bd=&wpa_pg_seller_id=F55CDC31AB754BB68FE0B39041159D63&wpa_ref_id=wpaqs:3Sx1VKcCCpJlQxrwoG5YV5RmUILDUHegLgO8Klz5QUhIYPgQAsp6jmUmkwzZFwGZ9YYJoTUwhNTE3zkULQJUA4z-jQ16_5Cf1PLcIUJoWVYIOsMvN4ytsmy8m8ijKplrVFwnFrEjvTU8gnKUgtC33C8Hp64LV3b-xdTESqPIElXc5DR0PyuzJG6xGLcHE58-UVAIQOeJtDOOVmvQKv1ZIWlDBNjv301O9ph5-KycTogwqH9IAfTKxcShFAMn5lFJ&wpa_tag=&wpa_aux_info=&wpa_pos=2&wpa_plmt=1145x1145_T-C-IG_TI_1-6_HL-INGRID-GRID-NY&wpa_aduid=0c724551-669c-4291-b451-85013e71d292&wpa_pg=search&wpa_pg_id=dog%20food&wpa_st=dog%2Bfood&wpa_tax=5440_202072_6432755_1636265_2043546&wpa_bucket=__bkt__"><img src="images/dog-food.jpg"></a>
+                </div>
+                <div id="singer" style="display: none;">
+                <a href="https://www.walmart.com/ip/Milk-Bone-Soft-Chewy-Beef-Filet-Mignon-Recipe-Dog-Snacks-25-Ounce/44374610"><img src="images/dog-treats.jpg"></a>
+                </div>
+                <div id="dancer" style="display: none;">
+                    <a href="https://www.walmart.com/ip/Vibrant-Life-Cozy-Buddy-Sock-Monkey-Dog-Toys/284744604"><img src="images/dog-toy.jpg"></a>
+                    </div>
+        </div>
+            <div class='section paragraph'>Dog food would likely be a recurring purchase, while dog treats might be purchased more infrequently. Knowing this information, we can present the products the customer wants.<br><br>This can also be used to better understand shopping habits. If a customer only buys dog treats when they also buy a toy, we can suggest that for them.</div> 
+<div class="section next">
+    <a href='use-case-1.html'><- Use Case #1 &nbsp; &nbsp;</a>
+    <a href='use-case-3.html'> &nbsp; &nbsp; Use Case #3 -></a>
+</div>
+</body>
+</html>
